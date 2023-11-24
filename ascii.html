@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  float: left;
+ padding-right: 40px; 
+ padding-left: 40px;
+ padding-bottom: 40px;
+	}
+footer{  
+	float: left;
+    width: 35%;
+    padding: 10px;
+	}
+body {
+    background-image: url('https://th.bing.com/th/id/R.ebd52e1ded98b45ed090bd21cabf573c?rik=trQ4quiaWg5YNg&riu=http%3a%2f%2fimages4.alphacoders.com%2f352%2f35226.jpg&ehk=G9A2AJZpeFabBdSKTyGAbspwpzJbhKc7PpfBDWgPzO0%3d&risl=&pid=ImgRaw&r=0'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	}
+.p4{
+	font-family: MV Boli;
+	}
+</style>
+</head>
+<body><br><r><br><br>
+
+<section>
+<h2 style="color: lightgreen" class="p4"><center>Project 4: ASCII</center></h2>
+<hr>	
+
+
+<p><img src="https://github.com/Elizamontoya/foc/blob/main/ascii.png?raw=true" style="width:792px;height:528px;"></p><br><br><br><br>
+        
+			
+
+<p></p>
+<p></p>         
+
+
+<p>Enter any number from 0 to 127 :</p>
+<input id="inputdec" >
+<p></p>
+<button onclick="decToASCII()">Submit</button>
+
+<p>ASCII Value : </p><br>
+<p id="demo"></p><br><br><br><br><br><br><br><br><br>
+
+<script>
+function decToASCII() {
+  x = document.getElementById("inputdec").value;
+  var res = String.fromCharCode(x);
+  document.getElementById("demo").innerHTML = res;
+  console.log(res);
+}
+</script>
+
+
+
+</section>
+
+
+<a href="index.html">Back to Home</a></h3>
+
+<footer>
+  <p style="color:white">@ Powered by Jenny Montoya</p>
+</footer>
+
+</body>
+</html>
