@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url('https://th.bing.com/th/id/R.5cf29d7c5d3f3abbe90692ed2dc1108b?rik=PYXo5Q8HCpWjjQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fPurple-galaxy-high-quality-resolution-wallpapers.jpg&ehk=AZx3mQ%2bI8IRvE7FpX49rw8DpziJvgnZUzuCAMhDJLII%3d&risl=&pid=ImgRaw&r=0'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.p4{
+	font-family: MV Boli;
+	}
+footer{  
+	float: left;
+    width: 35%;
+    padding: 10px;
+	}
+</style>
+<title>FoC</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<section>
+<h2 style="color: lightgreen" class="p4"><center>Project 4: UNICODE</center></h2>
+<hr>
+
+<center>
+<p style="color:white">Please input UNICODE number:</p>
+
+<input id="numb" type="text">
+
+<button type="button" onclick="myFunction()">Submit</button>
+<br>
+<table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+ 
+  <tr>
+    <th><center><p id="demo"></center></p></th>
+  </tr>
+  
+</table>
+
+
+<p><img src="https://github.com/Elizamontoya/foc/blob/main/uni1.jpg?raw=true" style="width:700px;height:400px;"></p>
+<p><img src="https://github.com/Elizamontoya/foc/blob/main/uni3.jpg?raw=true" style="width:700px;height:400px;"></p>        
+<p><img src="https://github.com/Elizamontoya/foc/blob/main/uni4.jpg?raw=true" style="width:700px;height:400px;"></p>  			
+
+<p></p>
+<p></p>         
+
+<br>
+
+
+</center>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  
+    text = x;
+    unicode = ("&#x" + x)
+  
+  document.getElementById("demo").innerHTML = unicode;
+}
+</script>
+
+
+</section>
+
+
+<a href="index.html"><center>Back to Home</center></a></h3>
+
+<footer>
+  <p style="color:white" class="footer">@ Powered by Jenny Montoya</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
